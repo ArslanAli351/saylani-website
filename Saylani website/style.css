@@ -122,6 +122,153 @@
         margin-left: 320px;
        }
           /* first portion end  */
+
+
+
+
+
+/* second poartion start */
+ .heading{
+    margin-top: 600px;
+text-align: center;
+}
+
+.contactcontainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+}
+.mineimg{
+width: 15%;
+background-color: #b6ef4933;
+
+margin-left: 30px;
+
+}
+
+.contactcontainer img{
+    margin-left: 30px;
+  
+}
+.contactcontainer p{
+    text-align: center;
+}
+
+
+
+.image{
+width: 95%;
+margin-left: 25px;
+margin-top: 20px;
+}
+
+
+.image img{
+    width: 25%;
+    border-radius: 10px;
+}
+
+
+
+
+
+.but{
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 20px;
+    display: flex
+    ;
+    justify-content: space-around;
+    margin-top: -40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    }
+.but button{
+    width: 20%;
+    background-color:  #8dc63f;
+}
+
+
+
+
+.Food{
+
+margin-left:90px ;
+margin-top: -60px;
+font-weight: bold;
+height: 50px;
+
+}
+.t{
+     margin-left:390px ;
+    margin-top: -70px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.IT{
+    margin-left:690px ;
+    margin-top: -40px;
+    height: 20px;
+    font-weight: bold;
+}
+/* second poartion end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           @media only screen and (max-width: 600px){
             .nav{
                     background-color:#eee;
@@ -201,4 +348,72 @@
         height: 30px;
     
        }
+       .heading{
+        margin-top: -360px;
+       }
+    .mineimg{
+        width: 100%;
+        margin-left: 2px;
+        height: 150px;
+        text-align: center;
+        display: block;
+        margin: auto;
+    padding-top: 20px;
     }
+    
+    .contactcontainer{
+    flex-direction:column;
+        display: flex;
+    text-align: center;
+    gap: 20px;
+    margin-top: 60px;
+    }
+    .contactcontainer p{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    }
+    
+    .image{
+    flex-direction: column;
+    width: 370%;
+    gap: 20px;
+    }
+    
+    
+    .but{
+    flex-direction: column;
+    height: 900px;
+    margin-top: -800px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 360px;
+    
+    }
+    
+    .but button{
+        width: 106%;
+        margin-left: -20px;
+    }
+    .Food{
+    justify-self: start;
+    margin-left: 30px;
+    margin-top: -1000px;
+    font-weight:900;
+    }
+    .bot{
+    margin-top: -420px;
+    }
+    
+    
+    .t{
+    margin-top: 368px;
+    margin-left: 30px;
+    justify-content: flex-start;
+    }
+    .IT{
+    width: 50%;
+    margin-top: 398px;
+    margin-left: 30px;
+    }
+}
